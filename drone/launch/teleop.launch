@@ -1,0 +1,11 @@
+<launch>
+    
+    <arg name="enable_teleop" default="false"/>
+    <arg name="takeoff_height" default="2.0"/>
+
+
+    <node name = "drone_node" pkg="drone" type="drone_node" output="screen"/>
+        <param name="enable_teleop" value="$(arg enable_teleop)"/>
+        <param name="takeoff_height" value="$(arg takeoff_height)"/>
+
+</launch>
