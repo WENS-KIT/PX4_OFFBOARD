@@ -1,6 +1,6 @@
 <launch>
     
-    <arg name="enable_teleop" default="false"/>
+    <arg name="enable_teleop" default="true"/>
     <arg name="takeoff_height" default="2.0"/>
 
 
